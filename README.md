@@ -1,5 +1,22 @@
  HEAD
-# Class-Software-Assurance-JGV
+#
+
+
+
+# Class Software Assurance Project
+
+This repository is part of the Class Software Assurance course. It contains various tools and resources for software assurance techniques.
+
+## Project Description
+The goal of this project is to apply software assurance principles to ensure the quality and security of software development processes.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
+
+
+ Class-Software-Assurance-JGV
 
 ✅**Activity 1: Research Git**
 
