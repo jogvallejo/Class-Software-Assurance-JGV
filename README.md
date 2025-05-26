@@ -15,6 +15,14 @@ The goal of this project is to apply software assurance principles to ensure the
    ```bash
    git clone https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
 
+<img width="570" alt="Screenshot 2025-05-25 at 10 57 30 PM" src="https://github.com/user-attachments/assets/fe312500-fa59-4d3c-837d-5981fe3bb878" />
+
+<img width="558" alt="Screenshot 2025-05-25 at 10 57 22 PM" src="https://github.com/user-attachments/assets/28b12f4e-e2e5-4c5d-95e8-afb5a4b1ac29" />
+
+<img width="1190" alt="Screenshot 2025-05-25 at 10 56 23 PM" src="https://github.com/user-attachments/assets/1184dfd4-4e51-4e61-b6dc-b147935bdaac" />
+
+<img width="1485" alt="Screenshot 2025-05-25 at 9 02 53 PM" src="https://github.com/user-attachments/assets/4b3ee2a2-fd94-40de-a8cb-9f0bdc2e923e" />
+
 
  Class-Software-Assurance-JGV
 
