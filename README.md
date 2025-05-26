@@ -24,6 +24,10 @@ The goal of this project is to apply software assurance principles to ensure the
 
  Class-Software-Assurance-JGV
 
+ ![alt text](<Screenshot 2025-05-25 at 10.57.30 PM.png>)
+
+
+
 ✅**Activity 1: Research Git**
 
 🔁 Types of Version Control Systems
