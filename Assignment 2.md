@@ -3,20 +3,14 @@
 
 ## ACTIVITY 1: Configure Visual Studio Code (VSC)
 
-![alt text](<Screenshot 2025-05-26 223126.png>)
+![Screenshot 2025-05-26 223126](https://github.com/user-attachments/assets/aab73acc-c83d-4bbe-a3b6-a30bcd4b9323)
 
-
-
-![alt text](<Screenshot 2025-05-26 223755.png>)
-
+![Screenshot 2025-05-26 223755](https://github.com/user-attachments/assets/4a6a22cc-182e-4fee-9e39-1f42c0b2be92)
 
 ## ACTIVITY 2: Clone the class repo and add to your VSC Workspace
 
+![Screenshot 2025-05-26 225648](https://github.com/user-attachments/assets/01a2ea49-bca1-4140-b810-f15d610d192c)
 
-![alt text](<Screenshot 2025-05-26 223126.png>)
 
-## ACTIVITY 3: Writing a good readme file  
 
-- Research what is included in a good README document for software.  Include a description and list of many of the things that make a good README file.  
-- Use good formatting using capabilities of Markdown (See cheats in the main README file).
-- Using VSC, stage your changes, commit with a meaningful commit message, and push to your remote repo using VSC. 
+
