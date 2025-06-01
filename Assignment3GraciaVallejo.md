@@ -14,6 +14,7 @@ git config --global core.editor "code --wait"
 ```bash
 git config --global --list
 git config --local --list
+```
 
 Result (Global):
 ```bash
