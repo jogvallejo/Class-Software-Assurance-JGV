@@ -43,27 +43,32 @@ git clone https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
 cd Class-Software-Assurance-JGV
 
 Check repo status
+```
 ```bash
 git status
 
 Result:
+```
 ```bash
 On branch main
 nothing to commit, working tree clean
 
 Stage and commit changes
+```
 ```bash
 echo "Test file" > test.txt
 git add test.txt
 git commit -m "Add test.txt for assignment"
 
 Delete a versioned file
+```
 ```bash
 git rm test.txt
 git commit -m "Remove test.txt from repo"
 
 Example .gitignore
 Create a .gitignore file:
+```
 ```bash
 echo "*.log" > .gitignore
 echo "node_modules/" >> .gitignore
@@ -72,83 +77,84 @@ git commit -m "Add .gitignore to exclude logs and dependencies"
 
 Working with a Remote
 View remote
+```
 ```bash
 git remote -v
 Result:
+```
 ```bash
 origin  https://github.com/jogvallejo/Class-Software-Assurance-JGV.git (fetch)
 origin  https://github.com/jogvallejo/Class-Software-Assurance-JGV.git (push)
 
 Fetch changes
+```
 ```bash
 git fetch
 
 Pull changes
+```
 ```bash
 git pull
 
 Result:
+```
 ```bash
 Already up to date.
 
 Push local commits
+```
 ```bash
 git push
 
 Result:
+```
 ```bash
 Everything up-to-date
 
 Branches
 View local branches
+```
 ```bash
 git branch
 Result:
 
-bash
-Copy
-Edit
+```
+```bash
 * main
 Create and switch branches
-bash
-Copy
-Edit
+```
+```bash
 git branch new-feature
 git branch
 git checkout new-feature
 Result:
 
-bash
-Copy
-Edit
+```
+```bash
 * new-feature
   main
 View all branches
-bash
-Copy
-Edit
+```
+```bash
 git branch -a
 Result:
 
-bash
-Copy
-Edit
+```
+```bash
   main
 * new-feature
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
 Delete local branch
-bash
-Copy
-Edit
+```
+```bash
 git checkout main
 git branch -d new-feature
 git branch
 Result:
 
-bash
-Copy
-Edit
+```
+```bash
 Switched to branch 'main'
 Deleted branch new-feature (was 5221c99).
 * main
