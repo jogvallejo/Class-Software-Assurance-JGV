@@ -10,7 +10,7 @@ git config --global user.email "99jose@live.com.mx"
 git config --global core.editor "code --wait"
 
 ### View current Git configuration
-
+```
 ```bash
 git config --global --list
 git config --local --list
@@ -23,18 +23,21 @@ user.email=99jose@live.com.mx
 core.editor=code --wait
 
 Result (Local):
+```
 ```bash
 remote.origin.url=https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
 
 Working with a Local Repo
 
 Create a new repo
+```
 ```bash
 mkdir test-repo
 cd test-repo
 git init
 
 Clone a repo
+```
 ```bash
 git clone https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
 cd Class-Software-Assurance-JGV
