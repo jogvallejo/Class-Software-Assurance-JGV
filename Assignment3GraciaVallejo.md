@@ -8,9 +8,9 @@
 git config --global user.name "jogvallejo"
 git config --global user.email "99jose@live.com.mx"
 git config --global core.editor "code --wait"
-
-### View current Git configuration
 ```
+View current Git configuration
+
 ```bash
 git config --global --list
 git config --local --list
