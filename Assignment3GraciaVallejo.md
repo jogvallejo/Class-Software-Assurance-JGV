@@ -8,129 +8,95 @@
 git config --global user.name "jogvallejo"
 git config --global user.email "99jose@live.com.mx"
 git config --global core.editor "code --wait"
+
 View current Git configuration
-bash
-Copy
-Edit
+```bash
 git config --global --list
 git config --local --list
-Result (Global):
 
-bash
-Copy
-Edit
+Result (Global):
+```bash
 user.name=jogvallejo
 user.email=99jose@live.com.mx
 core.editor=code --wait
-Result (Local):
 
-bash
-Copy
-Edit
+Result (Local):
+```bash
 remote.origin.url=https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
-...
-✅ Global config is applied across all repos on your machine. Use it when working consistently as the same user.
-Local config overrides global settings for just one repo.
 
 Working with a Local Repo
+
 Create a new repo
-bash
-Copy
-Edit
+```bash
 mkdir test-repo
 cd test-repo
 git init
+
 Clone a repo
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/jogvallejo/Class-Software-Assurance-JGV.git
 cd Class-Software-Assurance-JGV
-✅ Cloning copies an existing remote repo to your local machine.
-git init starts a brand-new, empty repo.
 
 Check repo status
-bash
-Copy
-Edit
+```bash
 git status
-Result:
 
-bash
-Copy
-Edit
+Result:
+```bash
 On branch main
 nothing to commit, working tree clean
+
 Stage and commit changes
-bash
-Copy
-Edit
+```bash
 echo "Test file" > test.txt
 git add test.txt
 git commit -m "Add test.txt for assignment"
+
 Delete a versioned file
-bash
-Copy
-Edit
+```bash
 git rm test.txt
 git commit -m "Remove test.txt from repo"
+
 Example .gitignore
 Create a .gitignore file:
-
-bash
-Copy
-Edit
+```bash
 echo "*.log" > .gitignore
 echo "node_modules/" >> .gitignore
 git add .gitignore
 git commit -m "Add .gitignore to exclude logs and dependencies"
-Exclude temporary files, OS files, compiled code, or dependencies.
 
 Working with a Remote
 View remote
-bash
-Copy
-Edit
+```bash
 git remote -v
 Result:
-
-bash
-Copy
-Edit
+```bash
 origin  https://github.com/jogvallejo/Class-Software-Assurance-JGV.git (fetch)
 origin  https://github.com/jogvallejo/Class-Software-Assurance-JGV.git (push)
+
 Fetch changes
-bash
-Copy
-Edit
+```bash
 git fetch
+
 Pull changes
-bash
-Copy
-Edit
+```bash
 git pull
-Result:
 
-bash
-Copy
-Edit
+Result:
+```bash
 Already up to date.
-Push local commits
-bash
-Copy
-Edit
-git push
-Result:
 
-bash
-Copy
-Edit
+Push local commits
+```bash
+git push
+
+Result:
+```bash
 Everything up-to-date
+
 Branches
 View local branches
-bash
-Copy
-Edit
+```bash
 git branch
 Result:
 
