@@ -22,4 +22,5 @@ I created a new branch for this assignment using Visual Studio Code.
 ![Screenshot 2025-06-16 005853](https://github.com/user-attachments/assets/46717cd8-0a2a-47ff-b981-5fd27bacd4b2)
 
 ## Delete the remote repo
-![Screenshot 2025-06-16 005903](https://github.com/user-attachments/assets/5e643c03-786a-4a49-9f3d-5fe9223c7c86)
+![Screenshot 2025-06-16 011140](https://github.com/user-attachments/assets/a0c5add5-8dd3-46bc-8306-195a8a9f3dc8)
+
